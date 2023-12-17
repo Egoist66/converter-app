@@ -1,0 +1,14 @@
+[
+    {
+        "path": "/",
+        "name": "Главная"
+    },
+    {
+        "path": "/punkty-obmena",
+        "name": "Пункты обмена"
+    },
+    {
+        "path": "/contacty",
+        "name": "Контакты"
+    }
+]

@@ -1,0 +1,209 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+body,html {
+    font-family: "Roboto";
+    font-size: 1.1rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #DDDCDC;
+
+}
+
+.rate {
+    padding-top: 30px;
+
+    & span {
+        font-weight: 600;
+    }
+}
+
+
+.title-block {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 600;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+    background-color: #1c4660;
+    color: white;
+    margin-bottom: 30px !important;
+}
+
+p, h2, h3, h4, h5, h6, label {
+    color: #1c4660;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+input, select, textarea {
+    color: #1c4660;
+}
+
+
+a.active {
+    font-weight: 600;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+#buy, #sell {
+    vertical-align: middle;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    height: inherit;
+    
+}
+
+form input {
+    display: block;
+}
+
+input {
+    outline: none;
+   
+}
+
+button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.info-card-panel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.calculator-wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.info-card {
+    width: 300px;
+    padding: 10px;
+    min-height: 200px;
+    background-color: rgb(221, 220, 220);
+    box-shadow: 1px 1px 8px -3px #1c4660;
+    border-radius: 4px;
+    
+}
+
+.calculator {
+    display: flex;
+    width: 79%;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 0px !important;
+}
+
+.info-wrapper {
+    padding: 30px;
+}
+
+.currency {
+    font-weight: 700;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.options {
+    padding-left: 40px;
+}
+
+label {
+    cursor: pointer;
+}
+
+input[type=radio]{
+    width: 18px;
+}
+
+#currencies {
+    padding: 5px;
+    font-size: 18px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 70px;
+    font-size: 18px;
+    width: 100%;
+    outline: none;
+    font-family: 'Roboto';
+    padding: 10px;
+    margin: 0 -10px;
+    display: block;
+    border: none;
+}
+
+#quantity {
+    padding: 5px;
+    font-size: 18px;
+}
+
+select {
+    outline: none;
+}
+
+.controls:nth-child(1) {
+    gap: 22px;
+}
+
+iframe {
+    width: 100%;
+    display: block;
+    height: 100vh;
+    border: none;
+  
+}
+
+.app-section-content {
+    padding: 0 20px
+}
+
+.header-container {
+    background: unset !important;
+    margin: 0;
+    box-shadow: none !important;
+}
+
+button:disabled {
+    opacity: 0.7;
+}
+
+@media(max-width: 450px){
+    input {
+        width: 100px;
+    }
+}
